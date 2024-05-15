@@ -15,6 +15,11 @@ dependencies:
     specifier: ^4.3.2
     version: 4.3.2(vue@3.4.27)
 
+devDependencies:
+  '@cloudflare/workers-types':
+    specifier: ^4.20240512.0
+    version: 4.20240512.0
+
 packages:
 
   /@ampproject/remapping@2.3.0:
@@ -409,6 +414,10 @@ packages:
     dependencies:
       mime: 3.0.0
     dev: false
+
+  /@cloudflare/workers-types@4.20240512.0:
+    resolution: {integrity: sha512-o2yTEWg+YK/I1t/Me+dA0oarO0aCbjibp6wSeaw52DSE9tDyKJ7S+Qdyw/XsMrKn4t8kF6f/YOba+9O4MJfW9w==}
+    dev: true
 
   /@esbuild/aix-ppc64@0.20.2:
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
